@@ -19,13 +19,13 @@ function createBG() {
 
 function createSnake() {
       for (i = 0; i < snake.length; i++) {
-            context.fillStyle = "green";
+            context.fillStyle = "seaGreen";
             context.fillRect(snake[i].x, snake[i].y, box, box);
       }
 }
 
 function drawFood() {
-      context.fillStyle = "red";
+      context.fillStyle = "orange";
       context.fillRect(food.x, food.y, box, box);
 }
 
